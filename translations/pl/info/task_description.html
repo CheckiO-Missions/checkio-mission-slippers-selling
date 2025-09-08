@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Rdzenna społeczność produkuje kapcie z juty i stworzyła stronę internetową, aby sprzedawać swoją produkcję online. Kapcie są tylko jednego rodzaju, ale są produkowane w różnych rozmiarach. Zapasy mogą być postrzegane jako tabela z jednym wierszem, w którym każda kolumna (indeks 1-base) reprezentuje rozmiar. Gdy pantofel zostanie sprzedany, stan magazynowy musi zostać zaktualizowany. Jeśli stan magazynowy dla rozmiaru kapci ma wartość zero, kapcie w tym rozmiarze nie mogą zostać sprzedane. Oznacza to, że sprzedaż nie zostanie przeprowadzona.
+</p>
+
+<p style="text-align: justify;">
+    Biorąc pod uwagę początkowy stan magazynowy i listę zamówień klientów, proszę napisać program, który określi, ile kapci zostało faktycznie sprzedanych. Każde zamówienie odnosi się do jednego kapcia. Sprzedaż jest przetwarzana sekwencyjnie, w kolejności składania zamówień. Jeśli sprzedaż nie jest możliwa z powodu braku zapasów, odpowiednie zamówienie jest ignorowane.
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Wejście:</strong> Dwa argumenty. Oba są tablicami {% if is_js %}{% else %} listami{% endif %} <span>({% if is_js %}arrays{% else %}lists{% endif %})</span> liczb całkowitych <span>({% if is_js %}numbers{% else %}ints{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> Liczba całkowita. 
+</p>
+
+
+<p>
+    <strong>Przykłady:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
