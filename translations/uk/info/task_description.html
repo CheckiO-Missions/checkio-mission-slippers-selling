@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Місцева громада виробляє джутові капці і створила веб-сайт, щоб продавати свою продукцію онлайн. Капці лише одного типу, але вони виробляються в різних розмірах. Запаси можна розглядати як таблицю з одним рядком, в якій кожен стовпчик (1-базовий індекс) представляє розмір. Коли капці продаються, запас повинен оновлюватися. Якщо запас для розміру капців дорівнює нулю, капці цього розміру не можуть бути продані. Тобто, продаж не здійснюється.
+</p>
+
+<p style="text-align: justify;">
+    За заданим початковим запасом і списком замовлень покупців напишіть програму, яка визначить, скільки тапочок було продано в цілому. Кожне замовлення відноситься до одного тапочка. Продажі обробляються послідовно, у тому порядку, в якому були розміщені замовлення. Якщо продаж неможливий через відсутність товару на складі, то відповідне замовлення ігнорується.
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> Два аргументи. Обидва є масивами {% if is_js %}{% else %} списками{% endif %} <span>({% if is_js %}arrays{% else %}lists{% endif %})</span> цілих чисел <span>({% if is_js %}numbers{% else %}ints{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Вивести:</strong> Ціле число. 
+</p>
+
+
+<p>
+    <strong>Приклади:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
