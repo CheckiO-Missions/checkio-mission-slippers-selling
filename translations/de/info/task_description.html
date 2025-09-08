@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Eine indigene Gemeinschaft stellt Jutepantoffeln her und hat eine Website eingerichtet, um die Produktion online zu verkaufen. Es gibt nur eine Art von Pantoffeln, aber sie werden in verschiedenen Größen hergestellt. Der Bestand kann als eine Tabelle mit einer einzigen Zeile betrachtet werden, in der jede Spalte (1-Basis-Index) eine Größe darstellt. Wenn ein Hausschuh verkauft wird, muss der Bestand aktualisiert werden. Wenn der Bestand für eine Größe von Hausschuhen den Wert Null hat, können Hausschuhe dieser Größe nicht verkauft werden. Das heißt, der Verkauf wird nicht durchgeführt.
+</p>
+
+<p style="text-align: justify;">
+    Schreiben Sie angesichts des Anfangsbestands und der Liste der Kundenbestellungen ein Programm, um zu ermitteln, wie viele Hausschuhe insgesamt verkauft werden. Jede Bestellung bezieht sich auf einen einzelnen Hausschuh. Die Verkäufe werden in der Reihenfolge abgewickelt, in der die Bestellungen aufgegeben wurden. Wenn ein Verkauf aufgrund mangelnder Lagerbestände nicht möglich ist, wird die entsprechende Bestellung ignoriert.
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Zwei Argumente. Beide sind {% if is_js %}Arrays{% else %}Listen{% endif %} <span>({% if is_js %}arrays{% else %}lists{% endif %})</span> von ganzen Zahlen <span>({% if is_js %}numbers{% else %}ints{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Ganzzahl. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
