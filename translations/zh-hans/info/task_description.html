@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    一个原住民社区生产黄麻拖鞋，并创建了一个网站在网上销售所生产的产品。拖鞋只有一种类型，但有各种尺寸。库存可以看作是一张表格，只有一行，其中每列（1-基数索引）代表一种尺寸。当一只拖鞋售出时，库存必须更新。如果拖鞋尺码的库存值为零，则不能出售该尺码的拖鞋。也就是说，销售不会进行。
+</p>
+
+<p style="text-align: justify;">
+    给定初始库存和客户订单列表，编写一个程序来确定实际总共售出多少双拖鞋。每个订单指的是一只拖鞋。按照下订单的顺序依次处理销售。如果由于缺货而无法销售，则忽略相应的订单。
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入</strong>两个参数。两个参数都是{% if is_js %}数组{% else %}列表{% endif %} <span>({% if is_js %}arrays{% else %}lists{% endif %})</span>的整数 <span>({% if is_js %}numbers{% else %}ints{% endif %})</span>.
+</p>
+
+<p>
+   <strong>输出：</strong>整数。 
+</p>
+
+
+<p>
+    <strong>示例</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
