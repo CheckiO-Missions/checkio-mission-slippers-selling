@@ -1,0 +1,46 @@
+<!-- Describe task in general -->
+<!-- <img src="{{MEDIA_CONVERT}}title.png" class="title_img" /> -->
+<p style="text-align: justify;">
+    Une communauté indigène produit des pantoufles en jute et a créé un site web pour vendre sa production en ligne. Les pantoufles sont d'un seul type, mais elles sont produites en différentes tailles. Le stock peut être vu comme un tableau avec une seule ligne, dans lequel chaque colonne (indice de base 1) représente une taille. Lorsqu'un chausson est vendu, le stock doit être mis à jour. Si le stock pour une taille de pantoufles a une valeur nulle, les pantoufles de cette taille ne peuvent pas être vendues. En d'autres termes, la vente n'a pas lieu.
+</p>
+
+<p style="text-align: justify;">
+    Étant donné le stock initial et la liste des commandes des clients, écrivez un programme permettant de déterminer le nombre total de pantoufles vendues. Chaque commande concerne une seule pantoufle. Les ventes sont traitées séquentiellement, dans l'ordre dans lequel les commandes ont été passées. Si une vente n'est pas possible en raison d'un manque de stock, la commande correspondante est ignorée.
+</p>
+
+<!-- <p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+</p> -->
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> Deux arguments. Tous deux sont des tableaux {% if is_js %}{% else %} des listes{% endif %} <span>({% if is_js %}arrays{% else %}lists{% endif %})</span> d'entiers <span>({% if is_js %}numbers{% else %}ints{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Sortie:</strong> Entier. 
+</p>
+
+
+<p>
+    <strong>Exemples:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
